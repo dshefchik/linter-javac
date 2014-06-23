@@ -10,7 +10,7 @@ class LinterJavac extends Linter
 
   # A string, list, tuple or callable that returns a string, list or tuple,
   # containing the command line (with arguments) used to lint.
-  cmd: 'javac -Xlint:all'
+  cmd: 'javac -classpath /Users/jason/Sites/edliocms/cms/tomcat/build/* -Xlint:all'
 
   linterName: 'javac'
 
