@@ -13,6 +13,10 @@ You can configure linter-javac by editing ~/.atom/config.cson (choose Open Your 
 
     'linter-javacs':
       'javaExecutablePath': null # java path. run 'which javac' to find the path
+      
+## Class Path
+If your open project has a '.classpath' file in the top-level directory, linter-javac will parse the paths and add them to the compiler classpath
+    
 
 ## Other available linters
 There are other linters available - take a look at the linters [mainpage](https://github.com/AtomLinter/Linter).
