@@ -5,12 +5,15 @@
   "main": "./lib/init",
   "version": "0.1.2",
   "description": "Lint Java on the fly, using javac",
-  "repository": "https://github.com/AtomLinter/linter-javac",
+  "repository": "https://github.com/dshefchik/linter-javac",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "shelljs": "^0.2.6"
+    "shelljs": "^0.2.6",
+    "fs": "*",
+    "xml2js" : "*",
+    "lodash" : "*"
   }
 }
